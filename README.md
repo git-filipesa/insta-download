@@ -1,5 +1,4 @@
 # :camera: Instagram Download (chrome extension)
-~~Este repositório tem como objetivo disponibilizar um código em javascript para baixar fotos e vídeos do instagram sem a necessidades de utilização de sites terceiros.~~
 
 ## :pushpin: Objetivo:
 Facilitar a possíbilidade de baixar midias na plataforma do instagram, além de adquirir conhecimento na linguagem javascript para projetos futuros.
