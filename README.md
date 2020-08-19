@@ -4,7 +4,7 @@
 Facilitar a possibilidade de baixar midias na plataforma do instagram, habilitando um botão para download nas fotos e vídeos do site.
 
 
-## Como tudo começou?
+## :question: Como tudo começou:
 Já vinha estudando automatização da plataforma com javascript, até que me surgiu a ideia de adquirir conhecimento na area de criação de extensões. Tudo vem sendo desenvolvido de maneira bem simples e eficaz, o que a torna uma extensão de fácil uso e manutenção.
 
 ## :clipboard: Check list:
