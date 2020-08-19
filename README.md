@@ -1,7 +1,7 @@
 # :camera: Instagram Download (chrome extension)
 
 ## :pushpin: Objetivo:
-Facilitar a possíbilidade de baixar midias na plataforma do instagram, além de adquirir conhecimento na linguagem javascript para projetos futuros.
+Facilitar a possibilidade de baixar midias na plataforma do instagram, além de adquirir conhecimento na linguagem javascript para projetos futuros.
 
 ## :hammer: Função:
 Habilitar um botão para download de fotos e vídeos na plataforma do instagram.
