@@ -1,10 +1,11 @@
 # :camera: Instagram Download (chrome extension)
 
 ## :pushpin: Objetivo:
-Facilitar a possibilidade de baixar midias na plataforma do instagram, além de adquirir conhecimento na linguagem javascript para projetos futuros.
+Facilitar a possibilidade de baixar midias na plataforma do instagram, habilitando um botão para download nas fotos e vídeos do site.
 
-## :hammer: Função:
-Habilitar um botão para download de fotos e vídeos na plataforma do instagram.
+
+## Como tudo começou?
+Já vinha estudando automatização da plataforma com javascript, até que me surgiu a ideia de adquirir conhecimento na area de criação de extensões. Tudo vem sendo desenvolvido de maneira bem simples e eficaz, o que a torna uma extensão de fácil uso e manutenção.
 
 ## :clipboard: Check list:
 - [x] Fotos do feed;
@@ -14,3 +15,7 @@ Habilitar um botão para download de fotos e vídeos na plataforma do instagram.
 - [ ] Galeria de fotos;
 - [ ] Galeria de videos;
 - [ ] Galeria de fotos e videos (mista).
+
+## :loudspeaker: Bugs fixed
+- [x] crash ao abrir pop-up do git;
+- [x] spam de botão nos stories e no feed.
