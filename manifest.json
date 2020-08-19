@@ -1,15 +1,12 @@
 {
-  "manifest_version": 2,
+	"manifest_version": 2,
   "name": "Instagram Download",
   "version": "1.0",
-
-  "default_locale": "en",
-  "description": "Now you can download stories, videos and photos.",
-	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
-
-  "browser_action": {
-   	"default_title": "Instagram Download",
-   	"default_icon": "icon.png",
-  
-  "author": "Filipe de Sá",
+  "content_scripts": [
+  	{
+  		"matches": [ "<all_urls>" ],
+  		"css": [ "style.css" ],
+  		"js": [ "content.js" ]
+  	}
+  ]
 }
