@@ -14,7 +14,8 @@ Já vinha estudando automatização da plataforma com javascript, até que me su
 - [x] Videos do stories;
 - [ ] Galeria de fotos;
 - [ ] Galeria de videos;
-- [ ] Galeria de fotos e videos (mista).
+- [ ] Galeria de fotos e videos (mista);
+- [x] Fotos e videos do perfil sem abrir a postagem.
 
 ## :loudspeaker: Bugs fixed
 - [x] crash ao abrir pop-up do git;
