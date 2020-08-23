@@ -1,15 +1,20 @@
+function download(uri, nome) {
+  var link = document.createElement("a");
+  link.download = nome;
+  link.href = uri;
+  link.click();
+}
+
+
 const interval_global = setInterval(() => {
 
-var i = 2, count = 0;
+  var count = 0;
 
-
-// botão download foto
-const header_content_foto = document.querySelector(".eo2As");
+  // botão download 1 foto
+  const header_content_foto = document.querySelector(".eo2As");
   if (header_content_foto) {
-  
+    
     const verify_content = document.querySelector('.button_dl_foto')
-    const verify_next_button = document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div.pR7Pc > div.Igw0E.IwRSH.eGOV_._4EzTm.O1flK.D8xaz.fm1AK.TxciK.yiMZG > div > button._6CZji')
-
     if (verify_content == null) {
 
       const button_content = document.createElement("button");
@@ -17,60 +22,72 @@ const header_content_foto = document.querySelector(".eo2As");
       button_content.classList.add("button_dl_foto");
 
       button_content.addEventListener("click", () => {
-        if (document.querySelector('li:nth-child('+i+') > div > div > div > div.KL4Bh > img') != null) {
-          window.open(document.querySelector('li:nth-child('+i+') > div > div > div > div.KL4Bh > img').src, "img"+count, "height = 500,width = 500");
-          count++;
-          if (i <= 3 ) {
-            i++;
+          
+        if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.KL4Bh > img')) {
+          if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.KL4Bh > img') != null) {
+            window.open(document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.KL4Bh > img').src, "img"+count, "height = 500,width = 500");
           } else {
-            i = 2;
+            console.log('Seletor 1 não encontrou foto.');
           }
-          if (verify_next_button) {
-            document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div.pR7Pc > div.Igw0E.IwRSH.eGOV_._4EzTm.O1flK.D8xaz.fm1AK.TxciK.yiMZG > div > button._6CZji').click();          }
-        } else {
-          console.log('nenhuma foto foi encontrada.');
-          i = 2;
+        }
+
+        if (document.querySelector('#react-root > section > main > section > div.cGcGK > div:nth-child(2) > div > article:nth-child(1) > div._97aPb > div > div > div.KL4Bh > img')) {
+          if (document.querySelector('#react-root > section > main > section > div.cGcGK > div:nth-child(2) > div > article:nth-child(1) > div._97aPb > div > div > div.KL4Bh > img') != null) {
+            window.open(document.querySelector('#react-root > section > main > section > div.cGcGK > div:nth-child(2) > div > article:nth-child(1) > div._97aPb > div > div > div.KL4Bh > img').src, "img"+count, "height = 500,width = 500");
+          } else {
+            console.log('Seletor 2 não encontrou foto.');
+          }
+        }
+
+        if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.eLAPa._23QFA > div.KL4Bh > img')) {
+          if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.eLAPa._23QFA > div.KL4Bh > img') != null) {
+            window.open(document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div.eLAPa._23QFA > div.KL4Bh > img').src, "img"+count, "height = 500,width = 500");
+          } else {
+            console.log('Seletor 3 não encontrou foto.');
+          }
+        }
+          
+        if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > img')) {
+          if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > img') != null) {
+            window.open(document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > img').src, "img"+count, "height = 500,width = 500");
+          } else {
+            console.log('Seletor 4 não encontrou foto.');
+          }
         }
       })
-
       header_content_foto.appendChild(button_content);
     }
-
   }
 
 
-// botão download video
-const header_content_video = document.querySelector(".eo2As");
+  // botão download 1 video
+  const header_content_video = document.querySelector(".eo2As");
   if (header_content_video) {
-  
-    const verify_content = document.querySelector(".button_dl_video")
 
-    if (verify_content == null) {
+    if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > video')) {
 
-      const button_content = document.createElement("button");
-      button_content.innerHTML = "DOWNLOAD VIDEO";
-      button_content.classList.add("button_dl_video");
+      const verify_content = document.querySelector(".button_dl_video")
 
-      button_content.addEventListener("click", () => {
-        if (document.querySelector('div > video > source') != null) {
-          window.open(document.querySelector('div > video > source').src, "vStories", "height=500,width=500");
-        } else {
-          if (document.querySelector('div > video') != null) {
-            window.open(document.querySelector('div > video').src, "video", "height=500,width=500");
+      if (verify_content == null) {
+        const button_content = document.createElement("button");
+        button_content.innerHTML = "DOWNLOAD VIDEO";
+        button_content.classList.add("button_dl_video");
+
+        button_content.addEventListener("click", () => {
+          if (document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > video') != null) {
+            window.open(document.querySelector('#react-root > section > main > div > div.ltEKP > article > div._97aPb.wKWK0 > div > div > div:nth-child(1) > div > div > video').src, "vStories", "height=500,width=500");
           } else {
             console.log('nenhum video foi encontrado.')
           }
-        }
-      })
-
-      header_content_video.appendChild(button_content);
+        })
+        header_content_video.appendChild(button_content);
+      }
     }
-
   }
 
 
-// botão download stories
-const header_stories = document.querySelector(".aOX72");
+  // botão download stories
+  const header_stories = document.querySelector(".aOX72");
   if (header_stories) {
 
     const verify_stories = document.querySelector(".button_stories")
@@ -95,10 +112,8 @@ const header_stories = document.querySelector(".aOX72");
           }
         }
       })
-
-      header_stories.appendChild(button_stories);
+    header_stories.appendChild(button_stories);
     }
-
   }
 
 }, 1000)
