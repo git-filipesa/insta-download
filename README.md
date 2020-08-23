@@ -1,5 +1,5 @@
 # :camera: Instagram Download (chrome extension)
-**EXISTEM BUGS E MELHORIAS A SEREM FEITAS PARA MELHORAR O DESEMPENHO**, porém espero que entenda que o projeto está em desenvolvimento e não foi finalizado! Se você quiser pode ajudar com ideias e compartilhando conhecimento para melhorar a extensão.
+**EXISTEM MELHORIAS A SEREM FEITAS NO DESEMPENHO E BUGS PARA SEREM CORRIGIDOS**, porém espero que entenda que o projeto está em desenvolvimento e não foi finalizado! Se você quiser pode ajudar com ideias e compartilhando conhecimento para melhorar a extensão.
 
 ## :pushpin: Objetivo
 Facilitar a possibilidade de baixar midias na plataforma do instagram, habilitando um botão para download nas fotos e vídeos do site.
