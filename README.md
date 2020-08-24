@@ -10,6 +10,7 @@ Já vinha estudando automatização da plataforma com javascript, até que me su
 
 ## :clipboard: Check list
 - [x] Fotos do feed;
+- [x] Fotos de capa dos vídeos;
 - [x] Videos do feed;
 - [x] Fotos do stories;
 - [x] Videos do stories;
